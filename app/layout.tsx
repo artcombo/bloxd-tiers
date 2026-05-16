@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     siteName: 'Bloxd Tiers',
     images: [
       {
-        url: '/og-image.png',   // place your banner at public/og-image.png
+        url: 'https://iili.io/Bp1T0Yv.png',
         width: 1280,
         height: 640,
         alt: 'Bloxd Tiers – Community Rankings',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Bloxd Tiers – Community Rankings',
     description: 'Discover player rankings and compare your progress.',
-    images: ['/og-image.png'],
+    images: ['https://iili.io/Bp1T0Yv.png'],
   },
 }
 
@@ -39,4 +39,3 @@ export default function RootLayout({
     </html>
   )
 }
-
